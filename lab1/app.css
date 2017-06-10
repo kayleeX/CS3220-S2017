@@ -1,0 +1,37 @@
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+
+ul.topnav {
+    padding: 10px 16px;
+    list-style: none;
+    font-size: 17px;
+}
+
+ul.topnav li {
+    display: inline;
+    float: right;
+   
+}
+
+ul.topnav li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+    float: right;
+}
+article {
+    margin-left: 170px;
+    padding: 1em;
+    overflow: hidden;
+}
